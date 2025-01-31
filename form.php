@@ -9,6 +9,9 @@
             font-family: Arial, sans-serif;
             margin: 50px;
         }
+        h1 {
+            text-align: center;
+        }
         form {
             max-width: 400px;
             margin: auto;

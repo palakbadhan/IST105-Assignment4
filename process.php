@@ -40,7 +40,7 @@
         $c = $_POST['c'];
 
         // Call the Python script with the input values
-        $command = escapeshellcmd("/var/www/html/calculate.py $a $b $c");
+        $command = escapeshellcmd("python3 /var/www/html/calculate.py $a $b $c");
         $output = shell_exec($command);
 
         // Display the results or error messages
